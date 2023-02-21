@@ -12,7 +12,7 @@ const data = [
   image: PortFolio,
   title:" Create my portfolio using React JS.",
   github:"https://github.com/Meet116/portfolio",
-  demo:"https://github.com",
+  demo:"https://meet116.github.io/portfolio/",
   target:"_blank",
   },
   {
