@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import ME from '../../assests/ME.png'
+import ME from '../../assests/me2.JPG'
 import { FaAward } from 'react-icons/fa';
 import {VscFolderLibrary} from 'react-icons/vsc'
 
@@ -30,7 +30,7 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, commodi maiores alias vitae deserunt voluptate odit, vero eius iusto libero voluptatem dignissimos soluta? Pariatur quam similique et consequatur dicta repellendus?
+          My name is Meet Luhar, and I recently earned a postgraduate degree in web design and development. I earned my undergraduate degree in computer science in India. Also, I have previous work expertise in DevOps and support roles. Always eager to learn about cutting-edge technologies and create useful apps.
           </p>
 
           <a href='#contact' className='btn btn-primary'> Let's Talk</a>

@@ -1,28 +1,35 @@
 import React from 'react'
 import './Portfolio.css'
 import ME from '../../assests/ME.png'
+import PortFolio from '../../assests/Portfolio.png'
+import Vagary from '../../assests/vagary.png'
+import Music from '../../assests/music.png'
+
 
 const data = [
   {
   id:1,
-  image: ME,
-  title:" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, consectetur.",
-  github:"https://github.com",
+  image: PortFolio,
+  title:" Create my portfolio using React JS.",
+  github:"https://github.com/Meet116/portfolio",
   demo:"https://github.com",
+  target:"_blank",
   },
   {
     id:2,
-    image: ME,
-    title:" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, consectetur.",
-    github:"https://github.com",
-    demo:"https://github.com",
+    image: Vagary,
+    title:" Create a travel guide website Vagary with MERN stack.",
+    github:"https://github.com/Meet116/Vagery",
+    demo:"https://amazing-blancmange-33051d.netlify.app/",
+    target:"_blank",
     },
     {
       id:3,
-      image: ME,
-      title:" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, consectetur.",
-      github:"https://github.com",
-      demo:"https://github.com",
+      image: Music,
+      title:"Create a music website store using MEAN stack.",
+      github:"https://github.com/Meet116/MusicApp",
+      demo:"javascript:void(0)",
+      target:"",
       }
 
 ]
@@ -34,18 +41,18 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
         {
-          data.map(({id,image,title,github,demo}) => {
+          data.map(({id,image,title,github,demo,target}) => {
             return(
               <arcticle key={id} className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={image} al={title} />
           </div>
           <div className="portfolio__item-image">
-            <h3>This is a portfolio item title</h3>
+            <h3>{title}</h3>
 
           <div className="portfolio__item-cta">
           <a href={github} className='btn' target='_blank'>Github</a>
-            <a href={demo } className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href={demo } className='btn btn-primary' target={target}>Live Demo</a>
           </div>  
           </div>
         </arcticle>
