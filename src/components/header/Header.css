@@ -24,7 +24,7 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 17rem;   
+    bottom: 10rem;   
 }
 
 .header__socials::after {
@@ -49,7 +49,7 @@ header {
 .scroll__down{
     position: absolute;
     right: 4.3rem;
-    bottom: 20rem;
+    bottom: 13rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;

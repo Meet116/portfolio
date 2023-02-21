@@ -90,13 +90,17 @@
 
 @media screen and (max-width: 600px){
     .about__me{
-        width: 65%;
+        width: 75%;
         margin: 0 auto 3rem;
+        height: 20rem;
     }
 
     .about__cards{
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+    }
+    .about__me-image{
+        height: 20rem;
     }
 
     .about__content{

@@ -30,7 +30,7 @@ const About = () => {
           </div>
 
           <p>
-          My name is Meet Luhar, and I recently earned a postgraduate degree in web design and development. I earned my undergraduate degree in computer science in India. Also, I have previous work expertise in DevOps and support roles. Always eager to learn about cutting-edge technologies and create useful apps.
+          My name is Meet Luhar, and I recently earned a postgraduate degree in web design and development. I earned my bachlor degree in computer science in India. Also, I have previous work expertise in DevOps and support roles. Always eager to learn about cutting-edge technologies and create useful apps.
           </p>
 
           <a href='#contact' className='btn btn-primary'> Let's Talk</a>
